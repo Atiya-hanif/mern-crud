@@ -48,5 +48,5 @@ export async function deleteImage(id) {
 
 // Helper to build the full image URL from the stored filename
 export function getImageUrl(imagePath) {
-  return `http://localhost:5000/uploads/${imagePath}`;
+  return `https://mern-crud-production-01c4.up.railway.app/uploads/${imagePath}`;
 }
