@@ -1,6 +1,6 @@
 // All backend requests live here so students only need to look
 // in ONE file to understand how the frontend talks to the API.
-const BASE_URL = "https://mern-crud-production-01c4.up.railway.app";
+const BASE_URL = "https://mern-crud-production-01c4.up.railway.app/api/images";
 
 // Get all images
 export async function fetchImages() {
